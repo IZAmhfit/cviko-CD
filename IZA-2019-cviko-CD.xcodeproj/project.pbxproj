@@ -7,26 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C06323022561C4400AAB4F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C06322F22561C4400AAB4F6 /* AppDelegate.swift */; };
+		6C06323222561C4400AAB4F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C06323122561C4400AAB4F6 /* ViewController.swift */; };
+		6C06323522561C4400AAB4F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C06323322561C4400AAB4F6 /* Main.storyboard */; };
+		6C06323822561C4400AAB4F6 /* democviko_CD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C06323622561C4400AAB4F6 /* democviko_CD.xcdatamodeld */; };
+		6C06323A22561C4700AAB4F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C06323922561C4700AAB4F6 /* Assets.xcassets */; };
+		6C06323D22561C4700AAB4F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C06323B22561C4700AAB4F6 /* LaunchScreen.storyboard */; };
+		6C0632462256209A00AAB4F6 /* Course+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0632422256209400AAB4F6 /* Course+CoreDataClass.swift */; };
+		6C0632472256209A00AAB4F6 /* Course+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0632432256209400AAB4F6 /* Course+CoreDataProperties.swift */; };
+		6C06324922562EB500AAB4F6 /* StudentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C06324822562EB500AAB4F6 /* StudentsVC.swift */; };
 		6C2417FD22526F4F00BC97A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2417FC22526F4F00BC97A2 /* AppDelegate.swift */; };
-		6C2417FF22526F4F00BC97A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2417FE22526F4F00BC97A2 /* ViewController.swift */; };
+		6C2417FF22526F4F00BC97A2 /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2417FE22526F4F00BC97A2 /* CoursesViewController.swift */; };
 		6C24180222526F4F00BC97A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C24180022526F4F00BC97A2 /* Main.storyboard */; };
 		6C24180522526F4F00BC97A2 /* IZA_2019_cviko_CD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C24180322526F4F00BC97A2 /* IZA_2019_cviko_CD.xcdatamodeld */; };
 		6C24180722526F5000BC97A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C24180622526F5000BC97A2 /* Assets.xcassets */; };
 		6C24180A22526F5000BC97A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C24180822526F5000BC97A2 /* LaunchScreen.storyboard */; };
+		6C24181222527B4600BC97A2 /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C24181122527B4600BC97A2 /* StudentsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C06322D22561C4400AAB4F6 /* democviko-CD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "democviko-CD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C06322F22561C4400AAB4F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C06323122561C4400AAB4F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C06323422561C4400AAB4F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C06323722561C4400AAB4F6 /* democviko_CD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = democviko_CD.xcdatamodel; sourceTree = "<group>"; };
+		6C06323922561C4700AAB4F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C06323C22561C4700AAB4F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C06323E22561C4700AAB4F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C0632422256209400AAB4F6 /* Course+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Course+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6C0632432256209400AAB4F6 /* Course+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Course+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6C06324822562EB500AAB4F6 /* StudentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsVC.swift; sourceTree = "<group>"; };
 		6C2417F922526F4F00BC97A2 /* IZA-2019-cviko-CD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IZA-2019-cviko-CD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2417FC22526F4F00BC97A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6C2417FE22526F4F00BC97A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C2417FE22526F4F00BC97A2 /* CoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
 		6C24180122526F4F00BC97A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C24180422526F4F00BC97A2 /* IZA_2019_cviko_CD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IZA_2019_cviko_CD.xcdatamodel; sourceTree = "<group>"; };
 		6C24180622526F5000BC97A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C24180922526F5000BC97A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C24180B22526F5000BC97A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C24181122527B4600BC97A2 /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6C06322A22561C4400AAB4F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6C2417F622526F4F00BC97A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +66,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C06322E22561C4400AAB4F6 /* democviko-CD */ = {
+			isa = PBXGroup;
+			children = (
+				6C0632422256209400AAB4F6 /* Course+CoreDataClass.swift */,
+				6C0632432256209400AAB4F6 /* Course+CoreDataProperties.swift */,
+				6C06322F22561C4400AAB4F6 /* AppDelegate.swift */,
+				6C06323122561C4400AAB4F6 /* ViewController.swift */,
+				6C06324822562EB500AAB4F6 /* StudentsVC.swift */,
+				6C06323322561C4400AAB4F6 /* Main.storyboard */,
+				6C06323922561C4700AAB4F6 /* Assets.xcassets */,
+				6C06323B22561C4700AAB4F6 /* LaunchScreen.storyboard */,
+				6C06323E22561C4700AAB4F6 /* Info.plist */,
+				6C06323622561C4400AAB4F6 /* democviko_CD.xcdatamodeld */,
+			);
+			path = "democviko-CD";
+			sourceTree = "<group>";
+		};
 		6C2417F022526F4F00BC97A2 = {
 			isa = PBXGroup;
 			children = (
 				6C2417FB22526F4F00BC97A2 /* IZA-2019-cviko-CD */,
+				6C06322E22561C4400AAB4F6 /* democviko-CD */,
 				6C2417FA22526F4F00BC97A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				6C2417F922526F4F00BC97A2 /* IZA-2019-cviko-CD.app */,
+				6C06322D22561C4400AAB4F6 /* democviko-CD.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,7 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				6C2417FC22526F4F00BC97A2 /* AppDelegate.swift */,
-				6C2417FE22526F4F00BC97A2 /* ViewController.swift */,
+				6C2417FE22526F4F00BC97A2 /* CoursesViewController.swift */,
+				6C24181122527B4600BC97A2 /* StudentsViewController.swift */,
 				6C24180022526F4F00BC97A2 /* Main.storyboard */,
 				6C24180622526F5000BC97A2 /* Assets.xcassets */,
 				6C24180822526F5000BC97A2 /* LaunchScreen.storyboard */,
@@ -70,6 +119,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6C06322C22561C4400AAB4F6 /* democviko-CD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C06324122561C4700AAB4F6 /* Build configuration list for PBXNativeTarget "democviko-CD" */;
+			buildPhases = (
+				6C06322922561C4400AAB4F6 /* Sources */,
+				6C06322A22561C4400AAB4F6 /* Frameworks */,
+				6C06322B22561C4400AAB4F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "democviko-CD";
+			productName = "democviko-CD";
+			productReference = 6C06322D22561C4400AAB4F6 /* democviko-CD.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6C2417F822526F4F00BC97A2 /* IZA-2019-cviko-CD */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C24180E22526F5000BC97A2 /* Build configuration list for PBXNativeTarget "IZA-2019-cviko-CD" */;
@@ -97,6 +163,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Martin Hruby FIT";
 				TargetAttributes = {
+					6C06322C22561C4400AAB4F6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					6C2417F822526F4F00BC97A2 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -116,11 +185,22 @@
 			projectRoot = "";
 			targets = (
 				6C2417F822526F4F00BC97A2 /* IZA-2019-cviko-CD */,
+				6C06322C22561C4400AAB4F6 /* democviko-CD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6C06322B22561C4400AAB4F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C06323D22561C4700AAB4F6 /* LaunchScreen.storyboard in Resources */,
+				6C06323A22561C4700AAB4F6 /* Assets.xcassets in Resources */,
+				6C06323522561C4400AAB4F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6C2417F722526F4F00BC97A2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,11 +214,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6C06322922561C4400AAB4F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C06324922562EB500AAB4F6 /* StudentsVC.swift in Sources */,
+				6C06323222561C4400AAB4F6 /* ViewController.swift in Sources */,
+				6C0632472256209A00AAB4F6 /* Course+CoreDataProperties.swift in Sources */,
+				6C06323822561C4400AAB4F6 /* democviko_CD.xcdatamodeld in Sources */,
+				6C0632462256209A00AAB4F6 /* Course+CoreDataClass.swift in Sources */,
+				6C06323022561C4400AAB4F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6C2417F522526F4F00BC97A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C2417FF22526F4F00BC97A2 /* ViewController.swift in Sources */,
+				6C24181222527B4600BC97A2 /* StudentsViewController.swift in Sources */,
+				6C2417FF22526F4F00BC97A2 /* CoursesViewController.swift in Sources */,
 				6C2417FD22526F4F00BC97A2 /* AppDelegate.swift in Sources */,
 				6C24180522526F4F00BC97A2 /* IZA_2019_cviko_CD.xcdatamodeld in Sources */,
 			);
@@ -147,6 +241,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		6C06323322561C4400AAB4F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C06323422561C4400AAB4F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C06323B22561C4700AAB4F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C06323C22561C4700AAB4F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		6C24180022526F4F00BC97A2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -166,6 +276,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6C06323F22561C4700AAB4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6DTJGF3D7H;
+				INFOPLIST_FILE = "democviko-CD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.vutbr.fit.democviko-CD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C06324022561C4700AAB4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6DTJGF3D7H;
+				INFOPLIST_FILE = "democviko-CD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.vutbr.fit.democviko-CD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		6C24180C22526F5000BC97A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -321,6 +467,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6C06324122561C4700AAB4F6 /* Build configuration list for PBXNativeTarget "democviko-CD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C06323F22561C4700AAB4F6 /* Debug */,
+				6C06324022561C4700AAB4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6C2417F422526F4F00BC97A2 /* Build configuration list for PBXProject "IZA-2019-cviko-CD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -342,6 +497,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		6C06323622561C4400AAB4F6 /* democviko_CD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6C06323722561C4400AAB4F6 /* democviko_CD.xcdatamodel */,
+			);
+			currentVersion = 6C06323722561C4400AAB4F6 /* democviko_CD.xcdatamodel */;
+			path = democviko_CD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		6C24180322526F4F00BC97A2 /* IZA_2019_cviko_CD.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

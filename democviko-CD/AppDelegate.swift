@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  IZA-2019-cviko-CD
+//  democviko-CD
 //
-//  Created by Martin Hruby on 01/04/2019.
+//  Created by Martin Hruby on 04/04/2019.
 //  Copyright © 2019 Martin Hruby FIT. All rights reserved.
 //
 
@@ -12,17 +12,17 @@ import CoreData
 //
 func MOC() -> NSManagedObjectContext {
     //
-    let app = UIApplication.shared.delegate as! AppDelegate
+    let appd = UIApplication.shared.delegate as! AppDelegate
     
     //
-    return app.persistentContainer.viewContext
+    return appd.persistentContainer.viewContext
 }
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    //
     var window: UIWindow?
+
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -62,7 +62,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "IZA_2019_cviko_CD")
+        let container = NSPersistentContainer(name: "democviko_CD")
+        
+        //
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
